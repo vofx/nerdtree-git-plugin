@@ -33,11 +33,11 @@ endfunction
 function! s:setHightlighting() abort
     let l:synlist = [
                 \ ['Unmerged',  'Function'],
-                \ ['Modified',  'Special'],
+                \ ['Modified',  'Character'],
                 \ ['Staged',    'Function'],
                 \ ['Renamed',   'Title'],
                 \ ['Unmerged',  'Label'],
-                \ ['Untracked', 'Comment'],
+                \ ['Untracked', 'DiffAdd'],
                 \ ['Dirty',     'Tag'],
                 \ ['Deleted',   'Operator'],
                 \ ['Ignored',   'SpecialKey'],
